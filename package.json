@@ -1,0 +1,15 @@
+{
+  "name": "healthcare_app",
+  "version": "1.0.0",
+  "description": "A healthcare translation app using Speech-to-Text and DeepL API.",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server ."
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

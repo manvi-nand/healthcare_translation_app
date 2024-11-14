@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 700px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 12px 25px;
+    margin: 15px 0;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #speakButton {
+    background-color: #007bff;
+  }
+  
+  #speakButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Select Dropdown Styles */
+  select {
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1.1em;
+    background-color: #f4f4f4;
+    width: 100%;
+  }
+  
+  /* Transcript Styles */
+  #transcripts {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #originalText, #translatedText {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #originalText {
+    background-color: #e9f5e9;
+  }
+  
+  #translatedText {
+    background-color: #e9f7fe;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    button {
+      width: 100%;
+      padding: 14px;
+    }
+  
+    select {
+      width: 100%;
+    }
+  }
+  
